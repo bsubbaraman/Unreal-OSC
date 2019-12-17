@@ -11,7 +11,7 @@ Send OSC messages (via e.g. Qlab) to the machine acting as a server using port 8
 ```
 where `<group>` is a specific tag, `sequenceName` is the name of the Level Sequence in Unreal, and `action` is the sequencer function to perform.
 
-For this example, the server is assigned to the `grasshopper` group and all others are `unmodded`. Two level sequences exist (`SQ_OSC_1` & `SQ_OSC_2`), and the only action is  `go` to start the sequence. To send to everyone, us `*` for the group.
+For this example, the server is assigned to the `grasshopper` group and all others are `unmodded`. Two level sequences exist (`SQ_OSC_1` & `SQ_OSC_2`), and the only action is  `go` to start the sequence. To send to everyone, use `*` for the group.
 
 ## Functionality
 All the logic is found in the Blueprint Class  `BP_OSC` and the attached Blueprint Actor Component `BP_OSC_Sequencer`.
