@@ -2,7 +2,7 @@
 OSC Cueing control system example for Unreal
 
 ## Requirements
-Tested on Mac running Unreal 4.21
+Tested on Mac running Unreal 4.23.1
 
 ## Usage
 Send OSC messages (via e.g. Qlab) to the machine acting as a server using port 8060. OSC messages should use the format:
